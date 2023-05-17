@@ -15,7 +15,7 @@ $mapsurl = "https://maps.googleapis.com/maps/api/js?key=".getenv('MAPSKEY')."&li
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Time Traffic overview - APJ CMBU</title>
+        <title>Time Traffic overview - APJ Aria</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -96,8 +96,7 @@ $(document).ready(function () {
         <header id="top" class="header">
             <div class="text-vertical-center">
                 <h1>Tito</h1>
-                <h3>Time Traffic Overview - APJ CMBU</h3>
-                <h3>Welcome OCBC!</h3>
+                <h3>Time Traffic Overview - APJ Aria</h3>
                  <?PHP
                  echo "Runs on : " . gethostname() . " (" . getHostByName(getHostName()) .")";
                 ?>
@@ -114,7 +113,6 @@ $(document).ready(function () {
                     <div class="col-lg-12 text-center">
                         <h2>Commuting to work every day?</h2>
                         <p class="lead">Let's take a moment to look at your commuting data</p>
-			    <h1>Test</h1>
                     </div>
                 </div>
                 <!-- /.row -->
